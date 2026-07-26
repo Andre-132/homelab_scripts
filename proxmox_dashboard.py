@@ -27,6 +27,4 @@ print("=== Homelab Status ===")
 for item in resources:
     if item["type"] =="lxc":
         print(item["name"], item["status"])
-
-
-
+        print(item["name"], item["uptime"])
