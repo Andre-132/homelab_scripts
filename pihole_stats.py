@@ -24,13 +24,11 @@ blocked_queries = stats_response.json()["queries"]["blocked"]
 percent_blocked = stats_response.json()["queries"]["percent_blocked"]
 cached = stats_response.json()["queries"]["cached"]
 
-print(auth_response.status_code)
-print(auth_response.json())
-print(stats_response.status_code)
-print(stats_response.json())
-
-print(sid)
+print("=== Total Queries ===")
 print(total_queries)
+print("=== Blocked Queries ===")
 print(blocked_queries)
+print("=== Percent Blocked ===")
 print(percent_blocked)
+print("=== Cache ===")
 print(cached)
