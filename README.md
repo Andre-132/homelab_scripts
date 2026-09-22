@@ -8,8 +8,7 @@ Nothing here is a polished public tool. It's a working set of things I actually 
 
 Automation and utilities I've written against my own stack, plus project notes I take while building things.
 
-- **Proxmox snapshot rotator.** Keeps snapshot counts under control on VMs I don't want to babysit.
-- **Pi-hole API scripts.** Python against the Pi-hole API for pulling stats and running backups.
+- **Pi-hole API scripts.** Python against the Pi-hole API for pulling stats
 - **Proxmox API scripts.** PVEAuthCookie auth, mostly bulk actions and status pulls.
 - **IoT VLAN buildout notes.** Network segmentation on VLAN 30 (192.168.30.0/24) with zone-based firewall rules between IoT and trusted networks.
 - Guest network isolation. Separate SSID on VLAN 2, firewalled off from LAN and management so visitors can hit the internet without touching anything internal.
