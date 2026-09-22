@@ -17,16 +17,16 @@ Automation and utilities I've written against my own stack, plus project notes I
 ## Scope
 
 **In scope**
+
 - Anything I actually run in my homelab.
 - Notes and guides written for my own reference.
 - Scripts I've tested and use regularly.
 
 **Out of scope**
+
 - Secrets, real hostnames, or anything specific to my private LAN.
 - Half-finished experiments I haven't validated.
 - Anything I couldn't reproduce cleanly if I rebuilt from scratch.
-
-If a script depends on my environment, I try to call that out in the folder's own README instead of making it a hidden gotcha.
 
 ## Homelab context
 
